@@ -69,6 +69,7 @@ at anytime.
   * disabled Cryptonator price feed
 
 ### Added
+  * ability to download from HTTP mirrors by setting `download_mirrors`
   * virtual kademlia network and mock udp transport for dht integration tests
   * functional tests for bootstrapping the dht, announcing and expiring hashes, finding and pinging nodes, protocol version 0/1 backwards/forwards compatibility, and rejoining the network
   * configurable `concurrent_announcers` and `s3_headers_depth` settings
